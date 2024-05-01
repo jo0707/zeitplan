@@ -1,6 +1,6 @@
 <template>
     <div>
-        <UContainer class="flex gap-8 py-12">
+        <UContainer class="flex gap-8">
             <div class="basis-2/5">
                 <TextTitle class="text-5xl leading-[60px]">Sebuah cara mudah mengatur jadwal kuliah kamu</TextTitle>
                 <p class="text-gray-700 leading-8 mt-4">Datang kuliah terlambat karena ketiduran itu tidak masalah; datang

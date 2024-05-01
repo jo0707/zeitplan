@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "light",
   },
+  ui: {
+    icons: ['material-symbols']
+  },
   googleFonts: {
     families: {
       "Patua One": true,

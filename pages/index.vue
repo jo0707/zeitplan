@@ -6,7 +6,6 @@
         <SectionPricing id="pricing" />
         <SectionTestimonial id="testimonial" />
         <SectionDownload id="download" />
-
     </div>
 </template>
 

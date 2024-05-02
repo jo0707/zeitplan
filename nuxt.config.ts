@@ -6,14 +6,14 @@ export default defineNuxtConfig({
     preference: "light",
   },
   ui: {
-    icons: ['material-symbols']
+    icons: ["material-symbols", "mdi"],
   },
   googleFonts: {
     families: {
       "Patua One": true,
       "Source Sans 3": true,
       "IBM Plex Mono": true,
-      "Poppins": true,
+      Poppins: true,
     },
   },
 })

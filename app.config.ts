@@ -7,7 +7,9 @@ export default defineAppConfig({
         solid: "rounded shadow-xl shadow-{color}-300/50 hover:shadow-{color}-300/50 hover:shadow-lg transition",
         outline:
           "rounded shadow-xl bg-{color}-100 shadow-{color}-100/20 hover:shadow-{color}-300/50 hover:bg-{color}-300 hover:text-{color}-100 hover:shadow-lg transition",
-      },
+        link: "transition",
+        ghost: "transition bg-{color}-50 hover:bg-{color}-100",
+        },
     },
     card: {
       shadow: "shadow-xl shadow-gray-400/20",

@@ -21,17 +21,13 @@
         <main>
             <slot />
         </main>
-
+        <UDivider />
         <footer>
+            <SectionFooter />
         </footer>
     </div>
 </template>
 
 <script setup>
-const navigations = [
-    { name: 'Home', to: '#home' },
-    { name: 'Fitur-Fitur', to: '#feature' },
-    { name: 'Harga', to: '#pricing' },
-    { name: 'Testimoni', to: '#testimonial' },
-];
+import { navigations } from '~/data/navigations';
 </script>

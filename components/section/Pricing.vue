@@ -1,5 +1,5 @@
 <template>
-    <div class="py-12">
+    <div class="py-12 bg-white bg-opacity-50">
         <UContainer class="text-center">
             <div class="mx-auto max-w-xl">
                 <TextTitle class="text-4xl">Main catur sambil bersepeda,</TextTitle>

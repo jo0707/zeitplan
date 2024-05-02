@@ -3,7 +3,9 @@
         <SectionHero id="home" />
         <SectionWhy id="feature" />
         <SectionFeatures />
-        <SectionPricing />
+        <SectionPricing id="pricing" />
+        <SectionTestimonial id="testimonial" />
+        <SectionDownload id="download" />
 
     </div>
 </template>

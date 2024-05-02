@@ -10,6 +10,9 @@
             <div class="flex gap-8 mt-16">
                 <Pricetag v-for="price in prices" :key="price.name" :price="price" />
             </div>
+            <p class="max-w-xl mx-auto mt-24 opacity-50"><b>Harap Diingat:</b> Harga di atas belum termasuk KKM, dan harga sewaktu-waktu bisa berubah secara
+                mendadak
+                seperti pengumuman PPKM darurat.</p>
         </UContainer>
     </div>
 </template>

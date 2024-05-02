@@ -11,7 +11,7 @@ export const reviews = [
     name: "Sanusi Sulivan",
     occupation: "Dosen di Boating School Ny. Puff",
     review:
-      "Terima kasih untuk aplikasinya, karena aplikasi ini murid-murid saya jadi rajin kuliah walaupun nggak ada adab. Adab tidak perlu kuliah nomor satu!",
+      "Terima kasih untuk aplikasinya, karena aplikasi ini murid-murid saya jadi rajin kuliah walaupun nggak ada adab. Adab tidak perlu kuliah nomor satu! 👈😎👉",
     stars: 5,
     path: "/images/reviews/sanusi.png",
   },

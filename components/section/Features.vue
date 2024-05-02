@@ -1,16 +1,20 @@
 <template>
     <div class="bg-white py-12">
         <UContainer class="flex gap-16">
-            <div class="grow grid place-items-center">
+            <div data-aos="fade-right" class="grow grid place-items-center">
                 <img src="/images/appPreview2.png" alt="Preview 2" />
             </div>
             <div class="basis-1/2">
-                <TextTitle class="text-4xl">Memangnya ada fitur apa aja sih di aplikasi yang katanya
+                <TextTitle data-aos="fade-left" data-aos-delay="300" class="text-4xl">Memangnya ada fitur apa aja sih di
+                    aplikasi yang
+                    katanya
                     keren ini? Jadi penasaran nich~</TextTitle>
-                <p class="text-gray-700 leading-8 mt-4">Aplikasi sekeren ini akan membuat kamu tidak dapat memberi
+                <p class="text-gray-700 leading-8 mt-4" data-aos="fade-left" data-aos-delay="600">Aplikasi sekeren ini
+                    akan membuat kamu tidak dapat memberi
                     alasan apapun untuk bolos matkul dosen (HAHA MAMPUS!). Lagian lo kuliah tapi jarang masuk, titip
                     absen doang!</p>
-                <div class="grid grid-cols-2 grid-rows-2 place-items-center gap-8">
+                <div class="grid grid-cols-2 grid-rows-2 place-items-center gap-8" data-aos="fade-left"
+                    data-aos-delay="900">
                     <FeatureItem2 v-for="feature in features" :key="feature.title" :feature="feature" />
                 </div>
             </div>

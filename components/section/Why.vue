@@ -2,14 +2,18 @@
     <div class="bg-white py-12">
         <UContainer class="flex gap-16 min-h-screen place-items-center">
             <div class="basis-2/5">
-                <TextTitle class="text-4xl leading-[48px]">Kenapa Kamu Sangat Harus Pakai Aplikasi Yang Keren Ini?
+                <TextTitle data-aos="fade-right" class="text-4xl leading-[48px]">Kenapa Kamu Sangat Harus Pakai Aplikasi
+                    Yang Keren Ini?
                 </TextTitle>
-                <p class="text-gray-700 leading-8 mt-8">Sejujurnya aplikasi kita ini seringkali bermasalah.
+                <p data-aos="fade-right" data-aos-delay="300" class="text-gray-700 leading-8 mt-8">Sejujurnya
+                    aplikasi kita ini seringkali
+                    bermasalah.
                     Kadang-kadang gak bisa submit data, kadang dibukanya lambat, kadang tiba-tiba logout sendiri, untung
                     gak berdua.</p>
-                <DownloadCount class="mt-24 w-2/3" />
+                <DownloadCount data-aos="fade-up" data-aos-delay="300" class="mt-24 w-2/3" />
             </div>
-            <div class="basis-3/5 grid grid-cols-2 grid-rows-2 place-items-center gap-8">
+            <div data-aos="fade-left" data-aos-delay="600"
+                class="basis-3/5 grid grid-cols-2 grid-rows-2 place-items-center gap-8">
                 <FeatureItem1 v-for="feature in features" :key="feature.title" :feature="feature" />
             </div>
         </UContainer>

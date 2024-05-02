@@ -16,4 +16,10 @@ export default defineNuxtConfig({
       Poppins: true,
     },
   },
+  aos: {
+    offset: 50,
+    delay: 0,
+    duration: 900, 
+    easing: "ease",
+  },
 })

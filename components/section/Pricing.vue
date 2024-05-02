@@ -2,15 +2,17 @@
     <div class="py-12 bg-white bg-opacity-50">
         <UContainer class="text-center">
             <div class="mx-auto max-w-xl">
-                <TextTitle class="text-4xl">Main catur sambil bersepeda,</TextTitle>
-                <TextTitle class="text-4xl mt-2">beda harga beda fitur</TextTitle>
-                <p class="text-gray-700 leading-8 mt-8">Aplikasi ini gratis sebenernya, brodie. Tapi kalo mau bayar
+                <TextTitle data-aos="fade-up" class="text-4xl">Main catur sambil bersepeda,</TextTitle>
+                <TextTitle data-aos="fade-up" class="text-4xl mt-2">beda harga beda fitur</TextTitle>
+                <p data-aos="fade-up" class="text-gray-700 leading-8 mt-8">Aplikasi ini gratis sebenernya, brodie. Tapi
+                    kalo mau bayar
                     gapapa juga sih, untuk gantinya kami kasih fitur yang spesial buat kamu!</p>
             </div>
-            <div class="flex gap-8 mt-16">
+            <div data-aos="fade-up" class="flex gap-8 mt-16">
                 <Pricetag v-for="price in prices" :key="price.name" :price="price" />
             </div>
-            <p class="max-w-xl mx-auto mt-24 opacity-50"><b>Harap Diingat:</b> Harga di atas belum termasuk KKM, dan harga sewaktu-waktu bisa berubah secara
+            <p class="max-w-xl mx-auto mt-24 opacity-50"><b>Harap Diingat:</b> Harga di atas belum termasuk KKM, dan
+                harga sewaktu-waktu bisa berubah secara
                 mendadak
                 seperti pengumuman PPKM darurat.</p>
         </UContainer>

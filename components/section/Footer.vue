@@ -8,7 +8,15 @@
                     jadwal makan, jadwal
                     liga inggris, dan jadwal-jadwal lainnya. Walaupun banyak error, setidaknya kami sudah berusaha
                     semaksimal mungkin.</p>
-                <p class="text-gray-700">COPYRIGHT (C) 2021. DESIGN BY NAUVAL</p>
+                <div class="flex flex-col">
+                    <p class="text-gray-500">&copy; 2021. DESIGN BY <UButton padded="false" label="NAUVAL"
+                            variant="link" to="https://twitter.com/mhdnauvalazhar" class="text-gray-500"
+                            target="_blank"></UButton>
+                    </p>
+                    <p class="text-gray-500">&copy; 2024. WEBSITE BY <UButton padded="false" label="JO" variant="link"
+                            target="_blank" to="https://github.com/jo0707" class="text-gray-500"></UButton>
+                    </p>
+                </div>
             </div>
             <div class="flex flex-col gap-3">
                 <h6 class="font-semibold">Sitemap</h6>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="pt-8">
+        <header class="pt-8" data-aos="fade-down">
             <UContainer>
                 <nav
                     class="rounded shadow-xl shadow-neutral-300/30 bg-white flex justify-between p-8 place-items-center">
@@ -21,7 +21,7 @@
         <main>
             <slot />
         </main>
-        <UDivider />
+
         <footer>
             <SectionFooter />
         </footer>

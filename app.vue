@@ -5,3 +5,9 @@
     </NuxtLayout>
   </div>
 </template>
+
+<style>
+* {
+  scroll-behavior: smooth;
+}
+</style>

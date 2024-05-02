@@ -1,9 +1,10 @@
 <template>
     <div>
         <UContainer class="flex gap-8">
-            <div class="basis-2/5">
+            <div data-aos="fade-right" data-aos-delay="300" class="basis-2/5">
                 <TextTitle class="text-5xl leading-[60px]">Sebuah cara mudah mengatur jadwal kuliah kamu</TextTitle>
-                <p class="text-gray-700 leading-8 mt-4">Datang kuliah terlambat karena ketiduran itu tidak masalah; datang
+                <p class="text-gray-700 leading-8 mt-4">Datang kuliah terlambat karena ketiduran itu tidak masalah;
+                    datang
                     kuliah karena lupa jadwal itu
                     sangatlah
                     tidak keren. Aplikasi ini adalah sahabat kamu sekarang, brodie~</p>
@@ -13,7 +14,7 @@
                 </div>
                 <ReviewCard class="mt-12" :review="reviews[0]" />
             </div>
-            <div class="grow grid place-items-center">
+            <div data-aos="fade-left" data-aos-delay="600" class="grow grid place-items-center">
                 <img src="/images/appPreview.png" alt="Preview" />
             </div>
         </UContainer>
